@@ -1,13 +1,13 @@
 {% set name = "MariaDB-Context-Manager" %}
-{% set version = "0.1.15" %}
+{% set version = "0.1.16" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mariadb_context_manager-{{ version }}.tar.gz
-  sha256: ad25278d04ffec5e9f7bba4b5f30baf2e9620ed6313532bf4cb6032dfbd46f41
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mariadb_context_manager-{{ version }}.tar.gz
+  sha256: c61150620b3f4204ef544bc761e022619fbd1b9ba3d21932c1f4d11826c0cdda
 
 build:
   noarch: python
